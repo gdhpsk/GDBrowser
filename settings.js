@@ -11,7 +11,6 @@ module.exports = {
         binaryVersion: '35',
         gdbrowser: '1'
     },
-    ipForwarding: true, // Forwards 'x-real-ip' to the servers. (requested by robtop)
     cacheMapPacks: true, // Caches map packs to speed up loading. Useful if they're rarely updated.
     cacheAccountIDs: true, // Caches account IDs in order to shave off an extra request to the servers.
     cachePlayerIcons: true, // Caches player icons to speed up loading. Changing your icon in-game may take time to update on the site.
